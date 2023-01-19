@@ -15,6 +15,7 @@
 }
 
 .control-panel {
+    display: flex;
     border: none;
     background-color: black;
     width: 100%;
@@ -27,4 +28,9 @@
     color: white;
     border: none;
     cursor: pointer;
+}
+
+.buttons-spacer {
+    background: transparent;
+    flex-grow: 1;
 }
