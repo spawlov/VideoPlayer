@@ -9,14 +9,12 @@
 }
 
 .video-container {
-    border: none;
     flex-grow: 1;
     width: 100%;
 }
 
 .control-panel {
     display: flex;
-    border: none;
     background-color: black;
     width: 100%;
 }
