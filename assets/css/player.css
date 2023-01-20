@@ -8,7 +8,7 @@
     height: 600px;
 }
 
-.js-video-container {
+.video-container {
     border: none;
     flex-grow: 1;
     width: 100%;
