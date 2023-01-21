@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/player.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="icon" type="image/png" sizes="16x16" href="//dvmn.org/assets/favicon.39a6050e68a2.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="//dvmn.org/assets/favicon-32.37a9fc388e53.png"/>
         <link rel="icon" type="image/png" sizes="96x96" href="//dvmn.org/assets/favicon-96.38d0a12c5ea6.png"/>
@@ -27,7 +30,15 @@
                 <button class="js-mute-button player-buttons">
                     <i class="fa fa-volume-up" aria-hidden="true" hidden></i>
                 </button>
-                <div class="buttons-spacer"></div>
+                <div class="timer-block">
+                    <span class="js-current-time"></span>
+                </div>
+                <div class="buttons-spacer">
+
+                </div>
+                <div class="timer-block">
+                    <span class="js-duration"></span>
+                </div>
                 <button class="js-fullscreen-button player-buttons">
                     <i class="fa fa-expand" aria-hidden="true"></i>
                 </button>

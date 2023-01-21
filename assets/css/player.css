@@ -33,3 +33,11 @@
     background: transparent;
     flex-grow: 1;
 }
+
+.timer-block {
+    margin: 4px 1px 4px 1px;
+    font-style: normal;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
