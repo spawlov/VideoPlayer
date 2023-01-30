@@ -4,8 +4,8 @@
     align-items: end;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     margin: 5px;
-    width: 640px;
-    height: 480px;
+    width: 800px;
+    height: 600px;
 }
 
 .video-container {
@@ -22,22 +22,52 @@
 
 .player-buttons {
     background: transparent;
-    margin: 4px;
-    padding: 4px;
+    font-size: 20px;
+    margin: 9px 10px 9px 6px;
     color: white;
     border: none;
     cursor: pointer;
+    width: 20px;
+    align-items: center;
 }
 
-.buttons-spacer {
+.progress-bar {
+    display: flex;
+    align-items: center;
     background: transparent;
     flex-grow: 1;
 }
 
+.slider {
+    margin: 4px 8px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #f8104d;
+}
+
+.slider-dot {
+    margin-left: -15px;
+    width: 7px;
+    height: 7px;
+    background-color: transparent;
+    border: none;
+}
+
+.slider-dot:hover {
+    margin-left: -15px;
+    width: 7px;
+    height: 7px;
+    background-color: #f8104d;
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
 .timer-block {
-    margin: 4px 1px 4px 1px;
+    margin: 4px 3px;
     font-style: normal;
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
     color: white;
+    width: 50px;
 }
