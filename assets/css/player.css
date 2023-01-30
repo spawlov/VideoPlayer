@@ -49,18 +49,21 @@
     margin-left: -15px;
     width: 7px;
     height: 7px;
-    background-color: transparent;
-    border: none;
-}
-
-.slider-dot:hover {
-    margin-left: -15px;
-    width: 7px;
-    height: 7px;
     background-color: #f8104d;
     border: 3px solid white;
     border-radius: 50%;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    transition-property: opacity;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.progress-bar .slider-dot {
+    opacity: 0.0;
+}
+
+.progress-bar:hover .slider-dot {
+    opacity: 1.0;
 }
 
 .timer-block {
